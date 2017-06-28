@@ -17,12 +17,12 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
-  - title: Oder in der Sidebar
+concepts-sidebar:
+  - title: Concepts
     children:
-      - title: "Concepts"
-        url: /Concepts/
-  - title: Wie man moechte
-    children:
-      - title: "Species"
-        url: /species/
+      - title: "Waves"
+        url: /concepts/waves/
+      - title: "Magic"
+        url: /concepts/magic
+      - title: "Mythology"
+        url: /concepts/mythology
