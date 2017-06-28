@@ -6,8 +6,8 @@ author_profile: false
 ---
 
 {% include base_path %}
-The solarsystem Quinterra
-====================
 
-Planets
----------------------
+## The solarsystem Quinterra
+
+## Planets
+
