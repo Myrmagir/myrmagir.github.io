@@ -17,26 +17,12 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-sidebar-sample:
-  - title: "Parent Page A"
+docs:
+  - title: Oder in der Sidebar
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /
-  - title: "Parent Page B"
+      - title: "Concepts"
+        url: /Concepts/
+  - title: Wie man moechte
     children:
-      - title: "Child Page B1"
-        url: /
-      - title: "Child Page B2"
-        url: /
-      - title: "Child Page B3"
-        url: /
-      - title: "Child Page B4"
-        url: /
-      - title: "Child Page B5"
-        url: /
+      - title: "Species"
+        url: /species/
