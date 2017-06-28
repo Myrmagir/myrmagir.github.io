@@ -9,4 +9,4 @@ sidebar:
 
 ## Pan
 
-{% include toc title="Unique Title" icon="file-text" %}
+{% include toc title="The planet Pan" icon="file-text" %}
