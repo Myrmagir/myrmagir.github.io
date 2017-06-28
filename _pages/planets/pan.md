@@ -8,3 +8,5 @@ sidebar:
 ---
 
 ## Pan
+
+{% include toc title="Unique Title" icon="file-text" %}
