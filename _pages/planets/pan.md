@@ -12,7 +12,9 @@ sidebar:
 
 ## Pan
 
-### The capitol Spirkay
+### The Capitol Spirkay
+
+#### Rules and Laws
 
 ### Cultures
 
