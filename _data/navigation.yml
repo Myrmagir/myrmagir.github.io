@@ -1,7 +1,15 @@
 # main links
 main:
+  - title: "Quinterra"
+    url: /quinterra/
+  - title: "Concepts"
+    url: /concepts/
+  - title: "Planets"
+    url: /planets/
   - title: "Species"
     url: /species/
+  - title: "Gamesystem"
+    url: /gamesystem/
   - title: "Sitemap"
     url: /about/
   - title: "Archived Posts"
