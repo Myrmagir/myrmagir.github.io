@@ -7,6 +7,9 @@ sidebar:
   nav: "planets-sidebar"
 ---
 
+{% include toc title="The planet Pan" icon="file-text" %}
+
+
 ## Pan
 
-{% include toc title="The planet Pan" icon="file-text" %}
+## Cultures
