@@ -1,7 +1,7 @@
 ---
 title: "The Ojtun"
 header:
-  image: /assets/images/unsplash-image-1.jpg
+  image: /assets/images/4673846-ice-wallpapers.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Species
