@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Concepts"
-permalink: /concepts/
+permalink: /myrmagir/concepts/
 sidebar:
   nav: "conceptssb"
 author_profile: false
