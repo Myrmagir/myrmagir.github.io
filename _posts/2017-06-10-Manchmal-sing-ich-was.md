@@ -2,9 +2,9 @@
 title: "Manchmal sing ich Around the World lalalala"
 header:
   image: /assets/images/test.jpg
-  caption: "Krass oder?"
 categories:
   - Viel
+  - Sahne
 tags:
   - Manchmal
 ---
