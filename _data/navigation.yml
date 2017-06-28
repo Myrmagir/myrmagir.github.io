@@ -26,3 +26,9 @@ conceptssb:
         url: /concepts/magic/
       - title: "Mythology"
         url: /concepts/mythology/
+
+species-sidebar:
+  - title: Species
+    children:
+      - title: "Allema"
+        url: /species/allema
