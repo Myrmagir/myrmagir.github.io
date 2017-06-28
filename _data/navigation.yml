@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Species"
+    url: /species/
   - title: "Sitemap"
     url: /about/
   - title: "Archived Posts"
