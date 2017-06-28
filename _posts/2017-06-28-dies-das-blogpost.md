@@ -1,49 +1,12 @@
 ---
-title: "Edge Case: Many Tags"
+title: "The Ojtun"
 categories:
-  - Edge Case
+  - Species
 tags:
-  - 8BIT
-  - alignment
-  - Articles
-  - captions
-  - categories
-  - chat
-  - comments
-  - content
-  - css
-  - dowork
-  - edge case
-  - embeds
-  - excerpt
-  - Fail
-  - featured image
-  - FTW
-  - Fun
-  - gallery
-  - html
-  - image
-  - Jekyll
-  - layout
-  - link
-  - Love
-  - markup
-  - Mothership
-  - Must Read
-  - Nailed It
-  - Pictures
-  - Post Formats
-  - quote
-  - standard
-  - Success
-  - Swagger
-  - Tags
-  - template
-  - title
-  - twitter
-  - Unseen
-  - video
-  - YouTube
+  - Species
+  - Io
+  - History
+  - Ananas
 ---
 
-This post has many tags.
+I love this post, because I love it dude
