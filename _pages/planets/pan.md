@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /planets/pan/
 title: "Pan"
 author_profile: false
