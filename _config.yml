@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Myrmagir test"
+title                    : "Myrmagir"
 title_separator          : "-"
 name                     : "Haiku"
 description              : "Pen and Paper Roleplay game, Fantasy"
@@ -77,9 +77,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Myrmagir"
+  name             : "Team Haiku"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A fantasy pen and paper roleplaygame"
+  bio              : "Wil splechen Japanisch"
   location         : 
   email            : "myrmagir@gmail.com"
   uri              :
