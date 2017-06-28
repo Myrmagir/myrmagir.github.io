@@ -31,4 +31,4 @@ species-sidebar:
   - title: Species
     children:
       - title: "Allema"
-        url: /species/allema
+        url: /species/allema/
