@@ -1,10 +1,15 @@
 ---
 title: "Myrmagir arrives"
 categories:
-  - Viel
-  - Sahne
+  - orga
 tags:
-  - Manchmal
+  - orga
+  - myrmagir
+sidebar:
+  - title: "An awesome picture on the sidebar!"
+    image: /assets/images/test.jpg
+    image_alt: "image"
+    text: "Just wanted to add this very important picture."
 ---
 
 Aber nur manchmal

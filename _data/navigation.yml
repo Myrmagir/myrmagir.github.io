@@ -10,14 +10,14 @@ main:
     url: /species/
   - title: "Gamesystem"
     url: /gamesystem/
-  - title: "Archived Posts"
-    url: /year-archive/
+  - title: "Search"
+    url: /search/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
-conceptssb:
+concepts-sidebar:
   - title: Concepts
     children:
       - title: "Waves"
@@ -27,8 +27,41 @@ conceptssb:
       - title: "Mythology"
         url: /concepts/mythology/
 
+planets-sidebar:
+  - title: Planets
+    children:
+      - title: "Planets of Quinterra"
+        url: /planets/
+      - title: "Tojiuma"
+        url: /planets/tojiuma/
+      - title: "Ifreet"
+        url: /planets/ifreet/
+      - title: "Pan"
+        url: /planets/pan/
+      - title: "Zplit'roq"
+        url: /planets/zplitroq/
+      - title: "Io"
+        url: /planets/io/
+
+
 species-sidebar:
   - title: Species
     children:
+      - title: "Species in general"
+        url: /species/
       - title: "Allema"
         url: /species/allema/
+
+search-sidebar:
+  - title: Search blogposts
+    children:
+      - title: "Search"
+        url: /search/
+      - title: "By tag"
+        url: /tags/
+      - title: "By year"
+        url: /year-archive/
+      - title: "By category"
+        url: /categories/
+      - title: "By collection"
+        url: /collection-archive/

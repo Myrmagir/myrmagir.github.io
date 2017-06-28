@@ -3,7 +3,7 @@ layout: single
 title: "Concepts"
 permalink: /concepts/
 sidebar:
-  nav: "conceptssb"
+  nav: "concepts-sidebar"
 author_profile: false
 ---
 

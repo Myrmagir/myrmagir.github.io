@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Search"
+permalink: /search/
+author_profile: false
+sidebar:
+  nav: "search-sidebar"
+---
+
+This is the search site
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+<h3> Tags </h3>
+
+<style>
+ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+</style>
+
+<ul>
+  {% for tag in group_names %}
+    <li id="{{ tag | slugify }}" class="archive__listitem">{{ tag }}</li>
+  {% endfor %}
+</ul>
