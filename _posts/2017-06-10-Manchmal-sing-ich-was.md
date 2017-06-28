@@ -1,5 +1,5 @@
 ---
-title: "The Brokkoli"
+title: "Manchmal sing ich Around the World lalalala"
 header:
   image: /assets/images/test.jpg
   caption: "Krass oder?"
