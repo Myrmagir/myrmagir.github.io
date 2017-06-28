@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "This author is testing it"
+  name             : "Myrmagir"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Dude, chill"
-  location         : "Anywhere"
-  email            :
+  bio              : "A fantasy pen and paper roleplaygame"
+  location         : 
+  email            : "myrmagir@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
