@@ -17,7 +17,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-concepts-sidebar:
+conceptssb:
   - title: Concepts
     children:
       - title: "Waves"
