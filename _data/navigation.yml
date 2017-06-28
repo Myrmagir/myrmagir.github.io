@@ -10,8 +10,6 @@ main:
     url: /species/
   - title: "Gamesystem"
     url: /gamesystem/
-  - title: "Sitemap"
-    url: /about/
   - title: "Archived Posts"
     url: /year-archive/
   # - title: "Sample Collections"
