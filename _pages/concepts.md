@@ -5,8 +5,8 @@ permalink: /concepts/
 author_profile: false
 ---
 
-A First Level Header
-====================
+Concepts
+---------------------
 
 
 sidebar:
