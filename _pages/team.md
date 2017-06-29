@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /team/
 title: "Team Haiku"
 excerpt: "The team of Myrmagir"
