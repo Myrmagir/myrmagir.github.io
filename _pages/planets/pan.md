@@ -6,8 +6,14 @@ author_profile: false
 sidebar:
   nav: "planets-sidebar"
 ---
+{% capture fig_img %}
+![Foo]({{ "/assets/images/universe.jpg" | absolute_url }})
+{% endcapture %}
 
-{% raw %}![alt]({{ site.url }}/assets/images/universe.jpg){% endraw %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Photo from Unsplash.</figcaption>
+</figure>
 
 {% include toc title="The planet Pan" icon="file-text" %}
 
