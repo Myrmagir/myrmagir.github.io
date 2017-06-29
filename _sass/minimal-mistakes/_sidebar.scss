@@ -11,6 +11,8 @@
   position: -webkit-sticky;  // required for Safari
     position: sticky;
     top: 0; // required as well.
+    width: 11em; 
+    border: 1px solid #000000;
     word-warp: normal;
   //Sticky end
   -webkit-transform: translate3d(0, 0 , 0);
@@ -32,6 +34,7 @@
 
   @include breakpoint($x-large) {
     padding-right: 0;
+    word-warp: normal;
   }
 
   h2, h3, h4, h5, h6 {
