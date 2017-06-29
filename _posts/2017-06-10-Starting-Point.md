@@ -5,14 +5,9 @@ categories:
 tags:
   - orga
   - myrmagir
-sidebar:
-  - title: "An awesome picture on the sidebar!"
-    image: /assets/images/test.jpg
-    image_alt: "image"
-    text: "Just wanted to add this very important picture."
 ---
 
-Aber nur manchmal
+After working on Myrmagir for almost a year now, we finally decided to go public! 
 
 "At vero eos et accusamus et i
 usto odio dignissimos ducimus qui blanditi
