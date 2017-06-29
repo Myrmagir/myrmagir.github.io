@@ -10,13 +10,11 @@ main:
     url: /species/
   - title: "Gamesystem"
     url: /gamesystem/
+  - title: "Haiku"
+    url: /team/
   - title: "Search"
-    url: /search/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
+    url: /search/  
+    
 concepts-sidebar:
   - title: Concepts
     children:
