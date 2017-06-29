@@ -79,10 +79,10 @@ analytics:
 author:
   name             : "Team Haiku"
   avatar           : "/assets/images/Brokkoli.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Wil splechen Japanisch"
+  bio              : "The team of the project"
   location         : 
   email            : "myrmagir@gmail.com"
-  uri              :
+  uri              : "https://zujiry.github.io/team/"
   bitbucket        :
   codepen          :
   dribbble         :
