@@ -11,3 +11,7 @@ sidebar:
 
 
 ## Planets
+
+Picture of solarsystem
+
+### [Pan](https://zujiry.github.io/planets/pan/)

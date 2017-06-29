@@ -1,0 +1,7 @@
+Notes:
+
+_pages/planets
+#hardcoded links
+
+_sass/sidebar.sass
+sticky sidebar
