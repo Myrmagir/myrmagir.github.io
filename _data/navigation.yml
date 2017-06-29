@@ -65,3 +65,5 @@ search-sidebar:
         url: /categories/
       - title: "By collection"
         url: /collection-archive/
+      - title: "Sitemap"
+        url: /sitemap/
