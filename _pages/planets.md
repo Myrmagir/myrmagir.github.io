@@ -7,7 +7,7 @@ sidebar:
   nav: "planets-sidebar"
 ---
 
-{% include toc title="The planet Pan" icon="file-text" %}
+{% include toc title="The planets of Quinterra" icon="file-text" %}
 
 
-## Pan
+## Planets
