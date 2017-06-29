@@ -6,9 +6,8 @@ author_profile: false
 sidebar:
   nav: "planets-sidebar"
 ---
-```markdown
+
 {% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/universe.jpg){% endraw %}
-```
 
 {% include toc title="The planet Pan" icon="file-text" %}
 
