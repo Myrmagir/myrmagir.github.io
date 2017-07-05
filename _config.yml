@@ -11,10 +11,10 @@ title                    : "Myrmagir"
 title_separator          : "-"
 name                     : "Haiku"
 description              : "Pen and Paper Roleplay game, Fantasy"
-url                      : "https://zujiry.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://zujiry.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Zujiry/zujiry.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/Brokkoli.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/galaxy.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Team Haiku"
-  avatar           : "/assets/images/universe.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/galaxy.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The team of Myrmagir"
   location         : 
   email            : "myrmagir@gmail.com"
