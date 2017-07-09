@@ -1,7 +1,10 @@
 # main links
 main:
-  - title: "Quinterra"
-    url: /quinterra/
+  - title: "Solarsystems"
+    url: /solarsystems/
+    dropdown:
+    - title: "Quinterra"
+      url: "/solarsystems/quinterra/"
   - title: "Concepts"
     url: /concepts/
   - title: "Planets"
