@@ -13,7 +13,7 @@ $paragraph-indent           : false !default; // true, false (default)
 $indent-var                 : 1.3em !default;
 
 /* system typefaces */
-$serif                      : /*Georgia, Times, serif !default;*/  'Nova Flat', serif !default;
+$serif                      : /*Georgia, Times, serif !default;*/ 'Amarante', cursive; default;
 /* $serif                      : "Comic Sans MS", cursive !default; */
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace !default;
@@ -45,8 +45,8 @@ $type-size-7                : 0.6875em !default; // ~11px
 $type-size-8                : 0.625em !default;  // ~10px
 
 @font-face {
-  font-family: 'Nova Flat';
-  src: url('https://fonts.googleapis.com/css?family=Nova Flat');
+  font-family: 'Amarante';
+  src: url("https://fonts.googleapis.com/css?family=Amarante");
   font-weight: normal;
   font-style: normal;
 }
