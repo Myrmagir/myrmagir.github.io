@@ -14,7 +14,6 @@ $indent-var                 : 1.3em !default;
 
 /* system typefaces */
 $serif                      : /*Georgia, Times, serif !default;*/ 'Amarante', cursive, !default;
-/* $serif                      : "Comic Sans MS", cursive !default; */
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -28,7 +27,6 @@ $times                      : Times, serif !default;
 $bodoni                     : "Bodoni MT", serif !default;
 $calisto                    : "Calisto MT", serif !default;
 $garamond                   : Garamond, serif !default;
-$comic-sans                 : "Comic Sans MS", cursive;
 
 $global-font-family         : $serif !default;
 $header-font-family         : $serif !default;
