@@ -19,7 +19,8 @@
     -webkit-box-pack: justify;
      justify-content: space-between;
     padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+    /*$sans-serif-narrow*/
+    font-family: Amarante, cursive;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
