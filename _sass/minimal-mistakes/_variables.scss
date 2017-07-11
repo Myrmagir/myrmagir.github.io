@@ -28,7 +28,7 @@ $calisto                    : "Calisto MT", serif !default;
 $garamond                   : Garamond, serif !default;
 
 $global-font-family         : $serif !default;
-$global-text-font-family    : Poppins, Arial, Helvetica, sans-serif !default;
+$global-text-font-family    : Poppins, $helvetica;
 $header-font-family         : $serif !default;
 $caption-font-family        : $serif !default;
 
