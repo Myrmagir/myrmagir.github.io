@@ -1,7 +1,6 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
-@import url('http://fonts.googleapis.com/css?family=Amarante');
 
 .masthead {
   position: relative;
@@ -20,8 +19,7 @@
     -webkit-box-pack: justify;
      justify-content: space-between;
     padding: 1em 1em 1em;
-    /*sans-serif-narrow*/
-    font-family: $serif;
+    font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
