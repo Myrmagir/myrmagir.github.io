@@ -14,14 +14,6 @@
     <link rel="icon" type="image/png" href="/assets/images/universe.jpg">
     {% include head.html %}
     {% include head/custom.html %}
-     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Amarante">
-    <style>
-      body {
-        font-family: 'Amarante', cursive;
-        font-size: 14px;
-      }
-     </style>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
