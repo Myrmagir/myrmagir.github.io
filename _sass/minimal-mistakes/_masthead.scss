@@ -20,7 +20,7 @@
      justify-content: space-between;
     padding: 1em 1em 1em;
     /*$sans-serif-narrow*/
-    font-family: Amarante, cursive;
+    font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
