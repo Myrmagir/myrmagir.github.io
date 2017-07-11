@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Solarsystems"
 permalink: /solarsystems/
 author_profile: false
