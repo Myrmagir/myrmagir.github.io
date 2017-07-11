@@ -19,7 +19,6 @@
     -webkit-box-pack: justify;
      justify-content: space-between;
     padding: 1em 1em 1em;
-    /*$sans-serif-narrow*/
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
