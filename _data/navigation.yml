@@ -3,8 +3,8 @@ main:
   - title: "Solarsystems"
     url: /solarsystems/
     children:
-      - title: "Quinterra"
-      url: "/solarsystems/quinterra/"
+    - childtitle: "Quinterra"
+      childurl: "/solarsystems/quinterra/"
   - title: "Concepts"
     url: /concepts/
   - title: "Planets"

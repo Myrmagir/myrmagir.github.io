@@ -5,12 +5,16 @@
         <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
+            {% if link.children %}
+              <li class="dropdown {{ class }}"><a href="{{ domain }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+              <ul class="masthead__menu_dropdown">
+                {% for child in link.children %}
+                  <li><a href="{{ domain }}{{ child.childurl }}">{{ child.childtitle }}</a></li>
+                {% endfor %}
+              </ul>
             {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <button><div class="navicon"></div></button>
