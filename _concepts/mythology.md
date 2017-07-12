@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "mythology"
+title: "Mythology"
 permalink: /concepts/mythology/
 author_profile: false
 ---
