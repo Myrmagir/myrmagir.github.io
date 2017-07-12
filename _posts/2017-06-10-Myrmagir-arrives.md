@@ -7,7 +7,7 @@ tags:
   - myrmagir
 ---
 
-After working on Myrmagir for almost a year now, we decided to share our pen and paer game with the world.
+After working on Myrmagir for almost a year now, we decided to share our pen and paper game with the world.
 It mixes the genres fantasy, sci-fi and steampunk together into a hell of a solarsystem called Quinterra!
 
 Yet, we are not finished with our first solar- and the whole gamesystem, which is why we will update this website with every blogpost a bit more!

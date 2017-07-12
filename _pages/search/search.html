@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Search site"
+title: "Search"
 permalink: /search/
 author_profile: false
 sidebar:
@@ -10,11 +10,11 @@ sidebar:
 <form action="get" id="site_search">
 	<left>
 	  <input style="font-size:20px;" type="text" id="search_box">
-	  <input style="font-size:20px;" type="submit" value="Click here to search our site">
+	  <button class="btn btn--large" style="font-size:20px;" type="submit" value="Click here to search our site">{{ site.data.ui-text[site.locale].search_label | remove: ":" | default: "Search" }}</button>
 	</left>
 </form>
 
-<h3> The results for your search in our blogposts </h3>
+<h3> Results </h3>
 <ul id="search_results"></ul>
 
 <script src="/assets/js/lunr.min.js"></script>
