@@ -7,10 +7,9 @@ sidebar:
   nav: "search-sidebar"
 ---
 
-<form action="get" id="site_search">
+<form id="site_search" onsubmit="return false;">
 	<left>
 	  <input style="font-size:20px;" type="text" id="search_box">
-	  <button class="btn btn--large" style="font-size:20px;" type="submit">{{ site.data.ui-text[site.locale].search_label | remove: ":" | default: "Search" }}</button>
 	</left>
 </form>
 

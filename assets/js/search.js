@@ -21,7 +21,7 @@ jQuery(function() {
   });
 
   // Event when the form is submitted
-  $("#site_search").submit(function(event){
+  $('input#search_box').on('keyup', function(event){
       event.preventDefault();
       var query = $("#search_box").val(); // Get the value for the text field
       var results = window.idx.search(query); // Get lunr to perform a search
@@ -50,7 +50,7 @@ jQuery(function() {
         });
       } else {
         // If there are no results, let the user know.
-        $search_results.html('<li>No results found.<br/>Please check spelling, spacing, something different, yadayada</li>');
+        $search_results.html('<li>No results found.<br/>Please check spelling, spacing, something</li>');
       }
     });
   }
