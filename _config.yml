@@ -171,9 +171,9 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /activity-log/page:num/
 timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -251,10 +251,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments:  true
       share: true
       related: true
-
-lunr_search:
-  js_dir: "/assets/js"
+  # _planets    
+  - scope:
+      path: ""
+      type: planets
+    values:
+      layout: single
+      author_profile: false
+      share: true
