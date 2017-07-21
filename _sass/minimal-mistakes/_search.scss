@@ -14,3 +14,21 @@ input[type=text] {
 input[type=text]:focus {
     border-color:$gray;
 }
+
+.search_results {
+  display: inline-block;
+  fill: $search-color;
+  width: 20em;
+  line-height: 1;
+  position: relative;
+  top: -0.1em;
+}
+
+.search_result {
+  display: block;
+  fill: $search-color;
+  width: 20em;
+  line-height: 1;
+  position: relative;
+  top: -0.1em;
+}

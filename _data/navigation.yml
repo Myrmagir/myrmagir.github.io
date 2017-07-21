@@ -1,10 +1,7 @@
 # main links
 main:
-  - title: "Solarsystems"
-    url: /solarsystems/
-    children:
-    - childtitle: "Quinterra"
-      childurl: "/solarsystems/quinterra/"
+  - title: "Activity Log"
+    url: /activity-log/
   - title: "Concepts"
     url: /concepts/
   - title: "Planets"
@@ -13,8 +10,8 @@ main:
     url: /species/
   - title: "Gamesystem"
     url: /gamesystem/
-  - title: "Haiku"
-    url: /team/
+  - title: "Contact"
+    url: /contact/
   - title: "Search"
     url: /search/  
     

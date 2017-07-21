@@ -5,3 +5,34 @@ _pages/planets
 
 _sass/sidebar.sass
 sticky sidebar
+
+<form id="site_search" onsubmit="return false;">
+	<left>
+	  <input style="font-size:20px;" type="text" id="search_box">
+	</left>
+</form>
+
+<h3> Results </h3>
+<ul id="search_results"></ul>
+
+<script src="/assets/js/lunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/assets/js/search.js"></script>
+
+
+/page2/
+/sitemap.xml
+/robots.txt
+/feed.xml
+"/year-archive/"
+"/tags/"
+"/sitemap/"
+"/search_pages.json
+"/search_data.json"
+"/search/"
+"/portfolio/"
+"/page-archive/"
+"/assets/css/main.css"
+"/assets/js/main.min.js"
+"/collection-archive/"
+"/categories/"

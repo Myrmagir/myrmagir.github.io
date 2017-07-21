@@ -52,19 +52,23 @@ $darker-gray                : mix(#000, $gray, 60%) !default;
 $light-gray                 : mix(#fff, $gray, 50%) !default;
 $lighter-gray               : mix(#fff, $gray, 90%) !default;
 $text-color-2               : #000099;
+$text-color-posts           : #ffffff;
 
-$body-color                 : #fff !default;
-$background-color           : #fff !default;
+$body-color                 : #000000 !default;
+$background-color           : #000000 !default;
 $code-background-color      : #fafafa !default;
 $code-background-color-dark : $light-gray !default;
-$text-color                 : $dark-gray !default;
+$text-color                 : #D2B48C !default;
 $border-color               : $lighter-gray !default;
+$footer-color               : #000000 !default;
+$sidebar-color              : $gray;
+$search-color               : $gray;
 
-$primary-color              : #7a8288 !default;
-$success-color              : #62c462 !default;
+$primary-color              : #D2B48C !default;
+$success-color              : #D2B48C !default;
 $warning-color              : #f89406 !default;
 $danger-color               : #ee5f5b !default;
-$info-color                 : #52adc8 !default;
+$info-color                 : #D2B48C !default;
 
 
 /* brands */
@@ -132,4 +136,3 @@ $global-transition          : all 0.2s ease-in-out !default;
 /*
    Design
    ========================================================================== */
-$design-blue                : #99d6ff
