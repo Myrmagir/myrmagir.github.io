@@ -3,6 +3,9 @@
    ========================================================================== */
 
 .page__footer {
+  background-image: $background-image-tex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   @include full();
   @include clearfix;
   /* sticky footer fix start */

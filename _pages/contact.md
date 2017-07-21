@@ -11,8 +11,6 @@ You can also write a comment below every post!
 ## The Team Haiku
 
 ### Zujiry
-Heyya, I am Zujiry, working mostly on Pan and this website here at the moment!
-I am organising the team and 
 
 ### Sungod
 

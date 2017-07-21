@@ -36,20 +36,37 @@
   }
 }
 
-.site-title {
-  display: -webkit-box;
-  display: flex;
-  padding: 0.5rem 0;
-  align-self: stretch;
-  -webkit-box-align: center;
-        align-items: center;
-  font-weight: bold;
-  color: $text-color-2;
-  z-index: 20;
+.site-title-sub {
+  line-height: 0.5;
+  .site-title {
+    font-size: $type-size-4;
+    display: -webkit-box;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 1;
+    align-self: stretch;
+    -webkit-box-align: center;
+          align-items: center;
+    font-weight: bold;
+    color: $title-text-color;
+    z-index: 20;
+  }
+
+  .site-subtitle {
+    font-family: $masthead-subtitle-font-family;
+    color: $subtitle-text-color;
+    position: relative;
+    left: 50px;
+    font-size: $type-size-7;
+    padding-bottom: 20px;
+  }
 }
 
 .masthead__menu {
   width: 100%;
+  background-image: $background-image-masthead;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
   .site-nav {
     margin-left: 0;
