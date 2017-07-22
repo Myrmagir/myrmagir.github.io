@@ -1,9 +1,6 @@
 ---
-layout: splash
+layout: single
 title: "Planets"
-header:
-  image: /assets/images/galaxy.jpg
-  teaser: /assets/images/galaxy.jpg
 permalink: /planets/
 author_profile: false
 ---
