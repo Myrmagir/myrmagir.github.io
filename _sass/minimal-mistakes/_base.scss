@@ -9,9 +9,11 @@ html {
 }
 
 body {
-  background-image: $background-image-tex;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: $background-image-tex no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
   margin: 0;
   padding: 0;
   color: $text-color;

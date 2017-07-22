@@ -3,9 +3,11 @@
    ========================================================================== */
 
 .page__footer {
-  background-image: $background-image-tex;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: $background-image-tex no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
   @include full();
   @include clearfix;
   /* sticky footer fix start */

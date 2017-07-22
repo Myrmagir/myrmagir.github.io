@@ -243,8 +243,15 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 20px;
-        background-image: $masthead-line-image;/*mix(#fff, $primary-color, 50%);*/
+        height: 10px;
+        background: $masthead-line-image no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;;
+
+
+        /*mix(#fff, $primary-color, 50%);*/
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
