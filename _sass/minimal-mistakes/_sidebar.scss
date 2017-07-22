@@ -9,10 +9,10 @@
 .sidebar {
   //Making the sidebar sticky so it follows the scrolling user
   position: -webkit-sticky;  // required for Safari
-    position: sticky;
-    top: 0; // required as well.
-    border-radius: 25px;
-    background-color: $sidebar-color;
+  position: sticky;
+  top: 0; // required as well.
+  border-radius: 25px;
+  background-color: $sidebar-color;
   //Sticky end
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);

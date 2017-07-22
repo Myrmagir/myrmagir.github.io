@@ -24,14 +24,13 @@ You can also write a comment below every post!
 
 ## Contact us
 
-<form action="https://getsimpleform.com/messages?form_api_token=aa1b2fef389e1bfd2dfccb3476c7b382" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <p> Subject </p>
-  <input type="text" name="subject" />
-  <p> Your Email </p>
-  <input type="text" name="Email" />
-  <p> Your wish / question / matter </p>
-  <textarea rows="6" name="message"></textarea>
-  <input type='submit' value='Send' />
+<form action="https://formspree.io/myrmagir@gmail.com"
+      method="POST">
+    <p> Subject </p>
+    <input type="text" name="name">
+    <p> Your Email </p>
+    <input type="email" name="_replyto">
+    <p> Your wish / question / matter </p>
+    <textarea rows="6" name="message"></textarea>
+    <button class="btn">Send</button>
 </form>
-      

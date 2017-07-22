@@ -19,6 +19,7 @@
 }
 
 .page {
+
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -27,7 +28,6 @@
 
   .page__inner-wrap {
     @include full();
-
     .page__content,
     .page__meta,
     .page__share {
@@ -51,7 +51,7 @@
 }
 
 .page__content {
-
+  /*background-color: $transparent-background-color;*/
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
