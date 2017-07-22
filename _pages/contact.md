@@ -18,12 +18,13 @@ You can also write a comment below every post!
 
 ### Jian Long
 
-Hi! I am Jian Long and actually quiet new to the world of pen & paper games. However combining my nonbiased perspective with the experience of the other members, I think we figured it pretty good out to make a beginner friendly system that provides thrilling battles but focuses mainly on storytelling and interaction between the adventurer. 
+Hi! I am Jian Long and actually quite new to the world of pen & paper games. 
+  However combining my nonbiased perspective with the experience of the other members, I think we figured it out pretty well and made a beginner friendly system that provides thrilling battles but focuses mainly on storytelling and interaction between the adventurers.
 
-My task in the team is to combine the ideas about the environment and to create spatiality/ambience, emphasizing on architecture, infrastructures and details which underline the given setting and atmosphere.
+My task in the team is to combine the ideas about the environment and to create spatiality/ambience, emphasizing on architecture, 
+infrastructures and details which underline the given setting and atmosphere.
 
-Jian Long
-Architecture & Design 
+Jian Long Architecture & Design
 
 ### Mondsycht
 
