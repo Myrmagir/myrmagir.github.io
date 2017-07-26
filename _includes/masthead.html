@@ -7,22 +7,39 @@
           <div class="site-subtitle">Quinterra</div>
         </div>
         <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            {% if link.children %}
-              <li class="dropdown {{ class }}"><a href="{{ domain }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-              <ul class="masthead__menu_dropdown">
-                {% for child in link.children %}
-                  <li><a href="{{ domain }}{{ child.childurl }}">{{ child.childtitle }}</a></li>
-                {% endfor %}
-              </ul>
-            {% else %}
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
               <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
         </ul>
         <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
+  <div class="masthead__inner-wrap-sub">
+  <div class="subhead__menu">
+      <nav id="subsite-nav" class="greedy-nav">
+		{% if page.header.sub %}
+		  {% assign subheader = site.data.subheader[page.header.sub] %}
+		  <ul class="subhead-links">
+		    {% for child in subheader %}
+			  {% if child.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li class="subhead__menu-item"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			
+		{% endif %}
+      </nav>
+    </div>
+    </div>
 </div>

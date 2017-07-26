@@ -6,11 +6,10 @@ author_profile: false
 ---
 
 {% include toc title="The planets of Quinterra" icon="file-text" %}
-
-
-## Planets
+## of Quinterra
 
 ### [Tojiuma](https://zujiry.github.io/planets/tojiuma/)
+Steampunk
 
 ### [Ifreet](https://zujiry.github.io/planets/ifreet/)
 

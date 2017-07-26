@@ -1,0 +1,23 @@
+{% assign subheader = site.data.subheader[include.sub] %}
+
+<ul class="subhead">
+	<input id="ac-toc" name="accordion-toc" type="checkbox" />
+	<label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+	<ul class="sub__items">
+		{% for child in subheader %}
+		<li>
+			{% if child.url %}
+			  {% if child.url contains "://" %}
+			    {% assign domain = "" %}
+			  {% else %}
+			    {% assign domain = site.url | append: site.baseurl %}
+			  {% endif %}
+
+			  <a href="{{ domain }}{{ child.url }}"><span class="subheader__sub-title">{{ child.title }}</span></a>
+			{% else %}
+			  <span class="sub__sub-title">{{ sub.title }}</span>
+			{% endif %}
+		</li>
+		{% endfor %}
+	</ul>
+</ul>

@@ -3,6 +3,8 @@ layout: single
 title: "Concepts"
 permalink: /concepts/
 author_profile: false
+header:
+  sub: "concepts-subheader"
 ---
 
 To explain what the nature of the fundamental systems in Myrmagir consists of, we divided our ideas into three essential concepts: [Waves](https://zujiry.github.io/concepts/waves/), [Magic](https://zujiry.github.io/concepts/magic/) and [Mythology](https://zujiry.github.io/concepts/mythology/).  
