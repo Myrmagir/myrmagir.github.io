@@ -54,6 +54,8 @@
     .subhead-links {
       display: -webkit-box;
       display: inline;
+      width: 100%;
+      text-align: center;
 
       a {
         position: relative;
@@ -86,7 +88,7 @@
       }
 
       li:first-child {
-        padding-left: 16em;
+        /*padding-left: 16em;*/
       }
     }
   }

@@ -34,8 +34,11 @@
 				{% endif %}
 				<li class="subhead-link"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
 			{% endfor %}
-		</ul>	
-		{% endif %}
-	{% endfor %}
+			</ul>
+	{% endif %}
+	{% unless page.header.sub %}
+		<ul class="subhead-links"><li class="subhead-link">&nbsp;</li></ul>	
+	{% endunless %}
+  {% endfor %}
   </div>
 </div>
