@@ -13,7 +13,24 @@
               {% else %}
                 {% assign domain = site.url | append: site.baseurl %}
               {% endif %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <li class="masthead__menu-item">
+              	<a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              		{% if page.header.sub and link.title == page.title %}
+		  				{% assign subheader = site.data.subheader[page.header.sub] %}
+		  				<ul class="subhead-links">
+		    				{% for child in subheader %}
+			  					{% if child.url contains 'http' %}
+                					{% assign domain = '' %}
+              					{% else %}
+                					{% assign domain = site.url | append: site.baseurl %}
+              					{% endif %}
+              					<li class="subhead-link"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+							{% endfor %}
+						</ul>	
+					{% else %}
+						<ul class="subhead-links"><li class="subhead-link">  </li></ul>		
+					{% endif %}
+			  </li>
             {% endfor %}
         </ul>
         <button><div class="navicon"></div></button>
@@ -21,25 +38,4 @@
       </nav>
     </div>
   </div>
-  <div class="masthead__inner-wrap-sub">
-  <div class="subhead__menu">
-      <nav id="subsite-nav" class="greedy-nav">
-		{% if page.header.sub %}
-		  {% assign subheader = site.data.subheader[page.header.sub] %}
-		  <ul class="subhead-links">
-		    {% for child in subheader %}
-			  {% if child.url contains 'http' %}
-                {% assign domain = '' %}
-              {% else %}
-                {% assign domain = site.url | append: site.baseurl %}
-              {% endif %}
-              <li class="subhead__menu-item"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
-			{% endfor %}
-			</ul>
-		{% else %}
-			
-		{% endif %}
-      </nav>
-    </div>
-    </div>
 </div>
