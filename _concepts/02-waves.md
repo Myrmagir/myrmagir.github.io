@@ -3,9 +3,12 @@ layout: single
 title: "Waves"
 permalink: /concepts/waves/
 author_profile: false
-sidebar:
-  nav: "concepts-sidebar"
+header:
+  sub: "concepts-subheader"
 ---
+
+{% include toc title="Waves" icon="file-text" %}
+
 ## Which are the foundation
 
 The world of Myrmagir consists of threedimensional waves, of which amplitudes and properties the world exists how it is perceived by its inhabitants. These waves are very abstract so take your time to understand them.  

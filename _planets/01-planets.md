@@ -3,6 +3,8 @@ layout: single
 title: "Planets"
 permalink: /planets/
 author_profile: false
+header:
+  sub: "planets-subheader"
 ---
 
 {% include toc title="The planets of Quinterra" icon="file-text" %}

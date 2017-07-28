@@ -17,7 +17,7 @@ I tried through some Pen-&-Paper games and really liked the ideas and worlds I c
 
 Since me being a coder guy, I am a coder guy here too building e.g. this website but mainly my dream is to write books, fantasy novels and such, and so I am mostly creating small worlds in our world! Have fun!
 
-Zujiry - Orga and Planet culture and history
+Zujiry - Orga, Culture and History
 
 ### Sungod
 

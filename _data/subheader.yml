@@ -5,3 +5,15 @@ concepts-subheader:
     url: /concepts/magic/
   - title: "Mythology"
     url: /concepts/mythology/
+
+planets-subheader:
+  - title: "Tojiuma"
+    url: /planets/tojiuma/
+  - title: "Ifreet"
+    url: /planets/ifreet/
+  - title: "Pan"
+    url: /planets/pan/
+  - title: "Zplit'roq"
+    url: /planets/zplitroq/
+  - title: "Io"
+    url: /planets/io/

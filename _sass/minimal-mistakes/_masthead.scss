@@ -86,10 +86,6 @@
         padding-right: 1em;
         display: inline-block;
       }
-
-      li:first-child {
-        /*padding-left: 16em;*/
-      }
     }
   }
 }
@@ -151,8 +147,10 @@
     padding-right: 2em;
     font-weight: 700;
   }
+}
 
+.subhead-link-active {
   a {
-    display: inline-block;
+    color: $mark-text-color;
   }
 }
