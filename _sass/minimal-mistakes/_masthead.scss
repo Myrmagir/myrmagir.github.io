@@ -21,7 +21,6 @@
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 2em;
     /*$sans-serif-narrow*/
     font-family: $global-font-family;
 
@@ -35,6 +34,60 @@
 
     a {
       text-decoration: none;
+    }
+  }
+
+  .subhead__inner-wrap {
+    @include container;
+    @include clearfix;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+     justify-content: space-between;
+    /*$sans-serif-narrow*/
+    font-family: $global-font-family;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    .subhead-links {
+      display: -webkit-box;
+      display: inline;
+
+      a {
+        position: relative;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 1px;
+          background: $masthead-line-image no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+
+
+          /*mix(#fff, $primary-color, 50%);*/
+          width: 100%;
+          -webkit-transition: $global-transition;
+          transition: $global-transition;
+          -webkit-transform: scaleX(0) translate3d(0, 0 , 0);
+                  transform: scaleX(0) translate3d(0, 0 , 0); /* hide*/
+        }
+      }
+
+      li {
+        padding-right: 1em;
+        display: inline-block;
+      }
+
+      li:first-child {
+        padding-left: 16em;
+      }
     }
   }
 }
@@ -65,7 +118,6 @@
 }
 
 .masthead__menu {
-  clear: both;
   position: relative;
   width: 100%;
   /*background-image: $background-image-masthead;*/

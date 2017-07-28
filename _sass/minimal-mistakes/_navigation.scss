@@ -328,63 +328,6 @@
       }
     }
   }
-
-  .subhead-links {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: end;
-     justify-content: flex-end;
-    -webkit-box-flex: 1;
-                flex: 1;
-    overflow: hidden;
-
-    li {
-      -webkit-box-flex: 0;
-                  flex: none;
-
-      a {
-        font-size: $type-size-7;
-        display: inline-block;
-      }
-
-      &:last-child {
-        a {
-          margin-right: 0;
-        }
-      }
-    }
-
-    a {
-      position: relative;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 10px;
-        background: $masthead-line-image no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-
-        /*mix(#fff, $primary-color, 50%);*/
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0) translate3d(0, 0 , 0);
-                transform: scaleX(0) translate3d(0, 0 , 0); /* hide*/
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-                -ms-transform: scaleX(1);
-            transform: scaleX(1); /* reveal*/
-      }
-    }
-  }
 }
 
 /*
