@@ -17,3 +17,29 @@ planets-subheader:
     url: /planets/zplitroq/
   - title: "Io"
     url: /planets/io/
+
+species-subheader:
+  - title: "Allema"
+    url: /species/allema/
+  - title: "Axo'La'Quotl"
+    url: /species/axolaquotl/
+  - title: "Banda Jit"
+    url: /species/banda-jit/
+  - title: "Chtu'ra"
+    url: /species/cthura/
+  - title: "Juzu"
+    url: /species/juzu/
+  - title: "Kix"
+    url: /species/kix/
+  - title: "Ledyil Faralorn"
+    url: /species/ledyil-faralorn/
+  - title: "Nanobots"
+    url: /species/nanobots/
+  - title: "Øjtûn"
+    url: /species/ojtun/
+  - title: "Quirk"
+    url: /species/quirk/
+  - title: "Solunastella"
+    url: /species/solunastella/
+  - title: "Tobu"
+    url: /species/tobu/

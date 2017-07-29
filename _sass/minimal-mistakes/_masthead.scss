@@ -40,52 +40,14 @@
   .subhead__inner-wrap {
     @include container;
     @include clearfix;
-    display: -webkit-box;
-    display: flex;
     -webkit-box-pack: justify;
      justify-content: space-between;
     /*$sans-serif-narrow*/
     font-family: $global-font-family;
+    padding-bottom: 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
-    }
-
-    .subhead-links {
-      display: -webkit-box;
-      display: inline;
-      width: 100%;
-      text-align: center;
-
-      a {
-        position: relative;
-
-        &:before {
-          content: "";
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          height: 1px;
-          background: $masthead-line-image no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-
-
-          /*mix(#fff, $primary-color, 50%);*/
-          width: 100%;
-          -webkit-transition: $global-transition;
-          transition: $global-transition;
-          -webkit-transform: scaleX(0) translate3d(0, 0 , 0);
-                  transform: scaleX(0) translate3d(0, 0 , 0); /* hide*/
-        }
-      }
-
-      li {
-        padding-right: 1em;
-        display: inline-block;
-      }
     }
   }
 }
@@ -149,7 +111,13 @@
   }
 }
 
-.subhead-link-active {
+
+/* SUBHEADER */
+.visible-link-sub {
+
+}
+
+.visible-link-sub-active {
   a {
     color: $mark-text-color;
   }

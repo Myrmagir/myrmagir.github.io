@@ -22,25 +22,26 @@
     </div>
   </div>
   <div class="subhead__inner-wrap">
+  	<nav class="greedy-nav-sub">
   	{% assign loopcheck = true %}
     {% for link in site.data.navigation.main %}
   	  {% assign subheader = site.data.subheader[page.header.sub] %}
   	  {% if page.header.sub and link.title == page.title %}
-		<ul class="subhead-links">
+		<ul class="visible-links-sub">
 		  {% for child in subheader %}
 		    {% if child.url contains 'http' %}
 			  {% assign domain = '' %}
 			{% else %}
 			  {% assign domain = site.url | append: site.baseurl %}
 			{% endif %}
-			<li class="subhead-link"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+			<li class="visible-link-sub"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
 		  {% endfor %}
 		</ul>
 	  {% elsif loopcheck %}
 		{% for child in subheader %}
 		  {% if child.title == page.title %}
 		  	{% assign loopcheck = false %}
-			<ul class="subhead-links">
+			<ul class="visible-links-sub">
 			  {% for child in subheader %}
 				{% if child.url contains 'http' %}
 				  {% assign domain = '' %}
@@ -48,9 +49,9 @@
 				  {% assign domain = site.url | append: site.baseurl %}
 				{% endif %}
 				{% if page.title == child.title %}
-				  <li class="subhead-link-active"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+				  <li class="visible-link-sub-active"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
 				{% else %}
-				  <li class="subhead-link"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+				  <li class="visible-link-sub"><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
 				{% endif %}
 			  {% endfor %}
 			</ul>
@@ -58,9 +59,9 @@
 		  {% endif %}
 		{% endfor %}
 	{% endif %}
-	{% unless page.header.sub %}
-		<ul class="subhead-links"><li class="subhead-link">&nbsp;</li></ul>	
-	{% endunless %}
   {% endfor %}
+  <button><div class="navicon-sub"></div></button>
+  <ul class="hidden-links-sub hidden"></ul>
+  </nav>
   </div>
 </div>

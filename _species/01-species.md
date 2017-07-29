@@ -2,8 +2,8 @@
 layout: single
 permalink: /species/
 title: "Species"
-sidebar:
-  nav: "species-sidebar"
+header:
+  sub: "species-subheader"
 author_profile: false
 ---
 

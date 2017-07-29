@@ -25,10 +25,6 @@ Drawdedication
 
 DRcadian
 
-> Let me doctor, I am through!
-  
-> <cite>DRcadian</cite>
-
 Wannentier
 
 Sungod
